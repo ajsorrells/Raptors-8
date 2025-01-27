@@ -1,0 +1,76 @@
+body {
+    background-color:rgb(141, 199, 201);
+    color: rgb(51, 89, 89);
+    font-family: Verdana, Helvetiva, Arial, sans-serif;
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
+}
+
+/* headlines */
+
+h1, h2, h3{
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+h1{
+    color: rgb(92, 146, 146);
+    font-size: 1.7em;
+}
+
+h2{
+    color: rgb(45, 45, 44);
+    font-size: 1.2em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #232222;
+}
+
+h3{
+    color: rgb(28, 34, 149);
+    font-size: 1em;
+}
+
+#edges{
+    background-color: rgb(112, 181, 185);
+    color: rgb(43, 70, 70);
+    background-image: url(background.jpg);
+    background-repeat: repeat-y;
+    margin: 25px;
+}
+
+p{
+    padding-bottom: 5px;
+}
+
+/* hyperlink rules */
+
+a{
+    color: rgb(85, 211, 204);
+}
+a:link{
+    color: rgb(63, 209, 207);
+}
+a:visited{
+    color: darkslategray;
+}
+a:hover{
+    color: rgb(21, 21, 21);
+}
+a:active{
+    color: rgb(21, 21, 21);
+}
+
+/* Containers */
+#sidebar{
+    color: #232222;
+    font-size: small;
+    font-variant: small-caps;
+    line-height: 1.2;
+    padding-right: 10px;
+    border-right-width: 1px;
+    border-right-color:rgb(45, 45, 44);
+    border-right-style: solid;
+    width: 200px;
+}
